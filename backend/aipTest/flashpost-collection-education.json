@@ -1,0 +1,753 @@
+{
+  "app": "Flashpost",
+  "id": "6bc2d80a-c99c-4c4f-8b98-7421c42af8ad",
+  "name": "education",
+  "version": "1.0",
+  "type": "collections",
+  "createdTime": "04-Dec-2024 12:06:31",
+  "exportedDate": "09-Dec-2024 08:38:01",
+  "collections": [
+    {
+      "id": "6bc2d80a-c99c-4c4f-8b98-7421c42af8ad",
+      "parent": "0",
+      "text": "education",
+      "createdTime": "04-Dec-2024 12:06:31",
+      "droppable": true,
+      "data": { "treeNodeType": "collection", "variableId": "" },
+      "relativeIndex": 0
+    },
+    {
+      "id": "2c8f1572-4eed-4d9a-a713-6d79653b6254",
+      "parent": "6bc2d80a-c99c-4c4f-8b98-7421c42af8ad",
+      "text": "all courses",
+      "createdTime": "04-Dec-2024 16:35:32",
+      "droppable": false,
+      "data": {
+        "id": "2c8f1572-4eed-4d9a-a713-6d79653b6254",
+        "method": "get",
+        "name": "all courses",
+        "url": "http://localhost:9999/api/v1/coures/coures-list",
+        "createdTime": "04-Dec-2024 16:35:32",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "e4960df1-ae02-42a4-bcbb-c80b91625b5d",
+      "parent": "219c7a45-4142-4c2c-8e29-07c490b20dc6",
+      "text": "delete module",
+      "createdTime": "08-Dec-2024 11:04:37",
+      "droppable": false,
+      "data": {
+        "id": "e4960df1-ae02-42a4-bcbb-c80b91625b5d",
+        "method": "delete",
+        "name": "delete module",
+        "url": "http://localhost:9999/api/v1/coures/module-delete/67556b78a0bd8ffa637d1579",
+        "createdTime": "08-Dec-2024 11:04:37",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "c84d8fd9-72c4-4032-b916-f851144cdbed",
+      "parent": "219c7a45-4142-4c2c-8e29-07c490b20dc6",
+      "text": "update module",
+      "createdTime": "08-Dec-2024 11:04:14",
+      "droppable": false,
+      "data": {
+        "id": "c84d8fd9-72c4-4032-b916-f851144cdbed",
+        "method": "patch",
+        "name": "update module",
+        "url": "http://localhost:9999/api/v1/coures/module-update/67556b78a0bd8ffa637d1579",
+        "createdTime": "08-Dec-2024 11:04:14",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "e3ea6ae5-56f9-467b-962b-9693c8dcb0d7",
+      "parent": "219c7a45-4142-4c2c-8e29-07c490b20dc6",
+      "text": "course by id",
+      "createdTime": "04-Dec-2024 16:39:33",
+      "droppable": false,
+      "data": {
+        "id": "e3ea6ae5-56f9-467b-962b-9693c8dcb0d7",
+        "method": "get",
+        "name": "course by id",
+        "url": "http://localhost:9999/api/v1/coures/coures-by-id/675023b5d312a0f63d134372",
+        "createdTime": "04-Dec-2024 16:39:33",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "219c7a45-4142-4c2c-8e29-07c490b20dc6",
+      "parent": "a21c4d21-e835-4e84-8a20-ac832e859b3b",
+      "text": "modules",
+      "createdTime": "04-Dec-2024 12:09:50",
+      "droppable": true,
+      "data": {
+        "id": "219c7a45-4142-4c2c-8e29-07c490b20dc6",
+        "name": "modules",
+        "createdTime": "04-Dec-2024 12:09:50",
+        "data": {},
+        "treeNodeType": "folder"
+      }
+    },
+    {
+      "id": "198fbb09-81da-49c1-9ca7-6a14be2c9e27",
+      "parent": "d5bc50c3-5da1-4023-aea0-47f8f2a2955f",
+      "text": "delete coures",
+      "createdTime": "08-Dec-2024 11:03:59",
+      "droppable": false,
+      "data": {
+        "id": "198fbb09-81da-49c1-9ca7-6a14be2c9e27",
+        "method": "delete",
+        "name": "delete coures",
+        "url": "http://localhost:9999/api/v1/coures/coures-delete/67556b44a0bd8ffa637d1575",
+        "createdTime": "08-Dec-2024 11:03:59",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "aa40ac72-0051-48b0-a0b6-a6477a3a047e",
+      "parent": "d5bc50c3-5da1-4023-aea0-47f8f2a2955f",
+      "text": "update coures",
+      "createdTime": "08-Dec-2024 11:03:44",
+      "droppable": false,
+      "data": {
+        "id": "aa40ac72-0051-48b0-a0b6-a6477a3a047e",
+        "method": "patch",
+        "name": "update coures",
+        "url": "http://localhost:9999/api/v1/coures/coures-update/67556b44a0bd8ffa637d1575",
+        "createdTime": "08-Dec-2024 11:03:44",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "718b4fb4-9c07-4a51-90aa-807c0115716d",
+      "parent": "d5bc50c3-5da1-4023-aea0-47f8f2a2955f",
+      "text": "add module",
+      "createdTime": "04-Dec-2024 15:11:53",
+      "droppable": false,
+      "data": {
+        "id": "718b4fb4-9c07-4a51-90aa-807c0115716d",
+        "method": "post",
+        "name": "add module",
+        "url": "http://localhost:9999/api/v1/coures/add-module/67556b44a0bd8ffa637d1575",
+        "createdTime": "04-Dec-2024 15:11:53",
+        "treeNodeType": "request"
+      },
+      "relativeIndex": 0
+    },
+    {
+      "id": "8748a0b1-d929-4c4a-87c7-b6b17bec99e2",
+      "parent": "d5bc50c3-5da1-4023-aea0-47f8f2a2955f",
+      "text": "add Cousres",
+      "createdTime": "04-Dec-2024 12:09:36",
+      "droppable": false,
+      "data": {
+        "id": "8748a0b1-d929-4c4a-87c7-b6b17bec99e2",
+        "method": "post",
+        "name": "add Cousres",
+        "url": "http://localhost:9999/api/v1/coures/add-course",
+        "createdTime": "04-Dec-2024 12:09:36",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "d5bc50c3-5da1-4023-aea0-47f8f2a2955f",
+      "parent": "a21c4d21-e835-4e84-8a20-ac832e859b3b",
+      "text": "coures",
+      "createdTime": "04-Dec-2024 12:09:15",
+      "droppable": true,
+      "data": {
+        "id": "d5bc50c3-5da1-4023-aea0-47f8f2a2955f",
+        "name": "coures",
+        "createdTime": "04-Dec-2024 12:09:15",
+        "data": {},
+        "treeNodeType": "folder"
+      }
+    },
+    {
+      "id": "0e4db101-8c7a-42b2-a1f1-3fb01ac6e928",
+      "parent": "2fdf4ee4-3daf-4c78-bc1f-9d2dd7ac7559",
+      "text": "registor",
+      "createdTime": "04-Dec-2024 12:08:14",
+      "droppable": false,
+      "data": {
+        "id": "0e4db101-8c7a-42b2-a1f1-3fb01ac6e928",
+        "method": "post",
+        "name": "registor",
+        "url": "https://backend-one-navy-88.vercel.app/api/v1/admin/register",
+        "createdTime": "04-Dec-2024 12:08:14",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "7782f903-850b-475e-8975-e2492ee08c6f",
+      "parent": "2fdf4ee4-3daf-4c78-bc1f-9d2dd7ac7559",
+      "text": "login",
+      "createdTime": "04-Dec-2024 12:08:05",
+      "droppable": false,
+      "data": {
+        "id": "7782f903-850b-475e-8975-e2492ee08c6f",
+        "method": "post",
+        "name": "login",
+        "url": "http://localhost:9999/api/v1/admin/login",
+        "createdTime": "04-Dec-2024 12:08:05",
+        "treeNodeType": "request"
+      }
+    },
+    {
+      "id": "2fdf4ee4-3daf-4c78-bc1f-9d2dd7ac7559",
+      "parent": "a21c4d21-e835-4e84-8a20-ac832e859b3b",
+      "text": "auth",
+      "createdTime": "04-Dec-2024 12:07:48",
+      "droppable": true,
+      "data": {
+        "id": "2fdf4ee4-3daf-4c78-bc1f-9d2dd7ac7559",
+        "name": "auth",
+        "createdTime": "04-Dec-2024 12:07:48",
+        "data": {},
+        "treeNodeType": "folder"
+      }
+    },
+    {
+      "id": "a21c4d21-e835-4e84-8a20-ac832e859b3b",
+      "parent": "6bc2d80a-c99c-4c4f-8b98-7421c42af8ad",
+      "text": "admin",
+      "createdTime": "04-Dec-2024 12:07:35",
+      "droppable": true,
+      "data": {
+        "id": "a21c4d21-e835-4e84-8a20-ac832e859b3b",
+        "name": "admin",
+        "createdTime": "04-Dec-2024 12:07:35",
+        "data": {},
+        "treeNodeType": "folder"
+      }
+    },
+    {
+      "id": "2a65db1a-c774-47ea-9db7-9af87e0fc3e1",
+      "parent": "6bc2d80a-c99c-4c4f-8b98-7421c42af8ad",
+      "text": "user",
+      "createdTime": "04-Dec-2024 12:07:22",
+      "droppable": true,
+      "data": {
+        "id": "2a65db1a-c774-47ea-9db7-9af87e0fc3e1",
+        "name": "user",
+        "createdTime": "04-Dec-2024 12:07:22",
+        "data": {},
+        "treeNodeType": "folder"
+      }
+    }
+  ],
+  "requests": [
+    {
+      "id": "2c8f1572-4eed-4d9a-a713-6d79653b6254",
+      "url": "http://localhost:9999/api/v1/coures/coures-list",
+      "name": "all courses",
+      "createdTime": "04-Dec-2024 16:35:32",
+      "method": "get",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": { "data": "", "lang": "json" },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "e4960df1-ae02-42a4-bcbb-c80b91625b5d",
+      "url": "http://localhost:9999/api/v1/coures/module-delete/67556b78a0bd8ffa637d1579",
+      "name": "delete module",
+      "createdTime": "08-Dec-2024 11:04:37",
+      "method": "delete",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": { "data": "", "lang": "json" },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "c84d8fd9-72c4-4032-b916-f851144cdbed",
+      "url": "http://localhost:9999/api/v1/coures/module-update/67556b78a0bd8ffa637d1579",
+      "name": "update module",
+      "createdTime": "08-Dec-2024 11:04:14",
+      "method": "patch",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": {
+          "data": "{\r\n    \"title\":\"hello python\"\r\n}",
+          "lang": "json"
+        },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "e3ea6ae5-56f9-467b-962b-9693c8dcb0d7",
+      "url": "http://localhost:9999/api/v1/coures/coures-by-id/675023b5d312a0f63d134372",
+      "name": "course by id",
+      "createdTime": "04-Dec-2024 16:39:33",
+      "method": "get",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": { "data": "", "lang": "json" },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "198fbb09-81da-49c1-9ca7-6a14be2c9e27",
+      "url": "http://localhost:9999/api/v1/coures/coures-delete/67556b44a0bd8ffa637d1575",
+      "name": "delete coures",
+      "createdTime": "08-Dec-2024 11:03:59",
+      "method": "delete",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "none",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": { "data": "", "lang": "json" },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "aa40ac72-0051-48b0-a0b6-a6477a3a047e",
+      "url": "http://localhost:9999/api/v1/coures/coures-update/67556b44a0bd8ffa637d1575",
+      "name": "update coures",
+      "createdTime": "08-Dec-2024 11:03:44",
+      "method": "patch",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": {
+          "data": "{\r\n    \"title\":\"test coures\"\r\n}",
+          "lang": "json"
+        },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "718b4fb4-9c07-4a51-90aa-807c0115716d",
+      "url": "http://localhost:9999/api/v1/coures/add-module/67556b44a0bd8ffa637d1575",
+      "name": "add module",
+      "createdTime": "04-Dec-2024 12:09:36",
+      "method": "post",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "bearertoken",
+        "userName": "",
+        "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NGZmZDk0ZDAxM2Y0MTM2M2U0MjhkNiIsImlhdCI6MTczMzMwNDcyOSwiZXhwIjoxMDAwMDAwMDE3MzMzMDQ3NDB9.7OQpQ9C8PSayExM66fnq1glDqU3ZPGPM3QzuV-dXMFM",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "Bearer",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": {
+          "data": "  {\r\n    \"title\": \"hiiiiiii to Python\",\r\n \"content\": \"Learn about Python syntax, variables, and basic data types.\",\r\n          \"duration_in_minutes\": 45,\r\n          \"video_url\": \"https://example.com/videos/python-intro\"\r\n   }",
+          "lang": "json"
+        },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "8748a0b1-d929-4c4a-87c7-b6b17bec99e2",
+      "url": "http://localhost:9999/api/v1/coures/add-course",
+      "name": "add Cousres",
+      "createdTime": "04-Dec-2024 12:09:36",
+      "method": "post",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "bearertoken",
+        "userName": "",
+        "password": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NGZmZDk0ZDAxM2Y0MTM2M2U0MjhkNiIsImlhdCI6MTczMzMwNDcyOSwiZXhwIjoxMDAwMDAwMDE3MzMzMDQ3NDB9.7OQpQ9C8PSayExM66fnq1glDqU3ZPGPM3QzuV-dXMFM",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "Bearer",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "multipart/form-data",
+          "isFixed": false
+        },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "formdata",
+        "formdata": [
+          { "isChecked": true, "key": "title", "value": "text coures" },
+          {
+            "isChecked": true,
+            "key": "description",
+            "value": "hello description value",
+            "type": "Text"
+          },
+          {
+            "isChecked": true,
+            "key": "duration_in_hours",
+            "value": "45",
+            "type": "Text"
+          },
+          {
+            "isChecked": true,
+            "key": "rating",
+            "value": "4.5",
+            "type": "Text"
+          },
+          {
+            "isChecked": true,
+            "key": "language",
+            "value": "tamil",
+            "type": "Text"
+          },
+          { "isChecked": true, "key": "price", "value": "499", "type": "Text" },
+          {
+            "isChecked": true,
+            "key": "image",
+            "value": "c:\\Users\\LENOVO\\Pictures\\20240710_114646.png",
+            "type": "File"
+          },
+          {
+            "isChecked": true,
+            "key": "category",
+            "value": "fun",
+            "type": "Text"
+          },
+          {
+            "isChecked": true,
+            "key": "course_free",
+            "value": "true",
+            "type": "Text"
+          },
+          { "isChecked": false, "key": "", "value": "", "type": "Text" }
+        ],
+        "urlencoded": [{ "isChecked": true, "key": "", "value": "" }],
+        "raw": {
+          "data": "{ \"title\":\"TEST coures\", \r\n\"description\":\"hello coures\",\r\n \"category\" :\"test\",\r\n  \"price\":\"6789\",\r\n  \"language\":\"tamil\",\r\n \"rating\":\"5.7\",\r\n \"duration_in_hours\":\"5\" }",
+          "lang": "json"
+        },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "0e4db101-8c7a-42b2-a1f1-3fb01ac6e928",
+      "url": "https://backend-one-navy-88.vercel.app/api/v1/admin/register",
+      "name": "registor",
+      "createdTime": "04-Dec-2024 12:08:14",
+      "method": "post",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": {
+          "data": "{\r\n    \"name\":\"ravi\",\r\n    \"password\":\"#Srinu^789\",\r\n    \"adminKey\":\"education_admin\",\r\n    \"email\":\"ravi@edu.in\"\r\n}",
+          "lang": "json"
+        },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    },
+    {
+      "id": "7782f903-850b-475e-8975-e2492ee08c6f",
+      "url": "http://localhost:9999/api/v1/admin/login",
+      "name": "login",
+      "createdTime": "04-Dec-2024 12:08:05",
+      "method": "post",
+      "params": [{ "isChecked": false, "key": "", "value": "" }],
+      "pathParams": [],
+      "auth": {
+        "authType": "noauth",
+        "userName": "",
+        "password": "",
+        "addTo": "queryparams",
+        "showPwd": false,
+        "tokenPrefix": "",
+        "aws": {
+          "service": "",
+          "region": "",
+          "accessKey": "",
+          "secretAccessKey": "",
+          "sessionToken": ""
+        }
+      },
+      "headers": [
+        { "key": "Accept", "value": "*/*", "isChecked": true },
+        { "key": "User-Agent", "value": "Flashpost", "isChecked": true },
+        {
+          "isChecked": true,
+          "key": "Content-Type",
+          "value": "application/json",
+          "isFixed": false
+        },
+        { "key": "", "value": "", "isChecked": false }
+      ],
+      "body": {
+        "bodyType": "raw",
+        "formdata": [{ "isChecked": false, "key": "", "value": "" }],
+        "urlencoded": [{ "isChecked": false, "key": "", "value": "" }],
+        "raw": {
+          "data": "{\r\n    \"name\":\"srinu\",\r\n    \r\n    \"password\":\"#Srinu^789\",\r\n    \"email\":\"srinu@edu.in\"\r\n}",
+          "lang": "json"
+        },
+        "binary": { "fileName": "", "data": {}, "contentTypeOption": "manual" },
+        "graphql": { "query": "", "variables": "" }
+      },
+      "tests": [{ "parameter": "", "action": "", "expectedValue": "" }],
+      "setvar": [{ "parameter": "", "key": "", "variableName": "" }],
+      "notes": "",
+      "selectedEnvironmentId": ""
+    }
+  ]
+}
