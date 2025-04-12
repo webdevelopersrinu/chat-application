@@ -33,7 +33,7 @@ const passwordReset = asyncError(async (req, res, next) => {
   });
   res.status(200).json({
     massage:"Password Reset Succesfully",
-    status: "success",
+    status: true,
     token,
     name: user.name,
     email: user.email,

@@ -8,8 +8,8 @@ export const register = asyncError(async (req, res, next) => {
     expiresIn: process.env.LOGIN_EXPAIER,
   });
   res.status(201).json({
+    status: true,
     message: "User Registor Succesfully",
-    status: "success",
     token,
     name: userData.firstname + " " + userData.lastname,
     email: userData.email,

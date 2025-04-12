@@ -2,7 +2,7 @@ import CustomError from "./customError.js";
 
 function devError(res, err) {
   res.status(err.statusCode).json({
-    status: err.status,
+    status: false,
     message: err.message,
     stackTrace: err.stack,
     err,
@@ -11,7 +11,7 @@ function devError(res, err) {
 
 function proError(res, err) {
   res.status(err.statusCode).json({
-    status: err.status,
+    status: false,
     message: err.message,
   });
 }

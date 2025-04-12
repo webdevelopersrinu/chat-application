@@ -31,7 +31,7 @@ const forgetPassword = asyncError(async (req, res, next) => {
       resetLink: resetUrl,
     });
     res.status(200).json({
-      status: "success",
+      status: true,
       message: "password reset token send successfully",
     });
   } catch (err) {

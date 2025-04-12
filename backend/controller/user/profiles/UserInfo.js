@@ -6,7 +6,7 @@ export const userInfo = asyncError(async (req, res, next) => {
     const userData = await User.findById(userId)
     res.status(200).json({
         message: "Get User Info Succesfully",
-        status: "success",
+        status: true,
         data: userData
     })
 })
@@ -21,7 +21,7 @@ export const getAllUsers = asyncError(async (req, res, next) => {
     }
     res.status(200).json({
         message: "Get All User's Data Succesfully",
-        status: "success",
+        status: true,
         data: userData
     })
 })

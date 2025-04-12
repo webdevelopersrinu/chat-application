@@ -14,7 +14,7 @@ const chatSchema = new mongoose.Schema({
         },
     },
     lastMessage: {
-        type: mongoose.Schema.Types.ObjectId, ref: "messages"
+        type: mongoose.Schema.Types.ObjectId, ref: "message"
     },
     unreadMessageCount: {
         type: Number,
